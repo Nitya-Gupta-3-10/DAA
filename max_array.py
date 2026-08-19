@@ -1,4 +1,4 @@
-arr=[111,21,45,76,8]
+arr=list(map(int,input().split()))
 max=arr[0]
 for i in range(1,len(arr)):
     if max<arr[i]:
